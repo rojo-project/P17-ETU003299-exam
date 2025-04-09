@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+version="2.4">
+
+    <servlet>
+        <servlet-name>CreditServlet</servlet-name>
+        <servlet-class>milay.CreditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreditServlet</servlet-name>
+        <url-pattern>/formCredit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Dashboard</servlet-name>
+        <servlet-class>milay.Dashboard</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Dashboard</servlet-name>
+        <url-pattern>/dash</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DepenseServlet</servlet-name>
+        <servlet-class>milay.DepenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepenseServlet</servlet-name>
+        <url-pattern>/formDepense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormEmpServlet</servlet-name>
+        <servlet-class>milay.FormEmpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormEmpServlet</servlet-name>
+        <url-pattern>/formulaireEmp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>milay.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/formulaireUser</url-pattern>
+    </servlet-mapping>
+
+    
+
+    
+</web-app>
